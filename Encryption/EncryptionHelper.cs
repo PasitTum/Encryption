@@ -5,18 +5,17 @@ namespace Encryption
     public class EncryptionHelper
     {
         // The initialization vector to use for the symmetric algorithm.
-		private static readonly byte[] SERVICE_IV = new byte[]
-		{
-            73, 65 ,63 ,72 ,65 ,74 ,49 ,56
-        };
-
-		// The secret key to use for the symmetric algorithm.
-		private static readonly byte[] SERVICE_KEY = new byte[]
-		{
-            0xa5, 67, 56, 23, 35, 69, 0xe5, 46, 
-			0xc3, 0x5d, 56, 0xe2, 0x3c, 0x3a, 41, 33, 
-			34, 0x2c, 26, 0x2a, 33, 0x6c, 50
-        };
+	private static readonly byte[] SERVICE_IV = new byte[]
+	{
+	    82, 55, 97, 46, 79, 88, 61, 92
+	};
+	
+	private static readonly byte[] SERVICE_KEY = new byte[]
+	{
+	    0xb1, 72, 45, 36, 84, 57, 0x93, 68,
+	    0xaf, 0x4d, 65, 0xf1, 0x2e, 0x4b, 53, 21,
+	    48, 0x5f, 23, 0x6d, 31, 0x7e, 61
+	};
 
         private static byte[] GetSecretKey(string keyText)
         {
