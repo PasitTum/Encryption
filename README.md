@@ -9,7 +9,7 @@
 * **Flexible Key Management**: รองรับทั้งการใช้ Default Service Key และการส่ง Custom Keys/IV ผ่าน Parameters
 * **Defensive Programming**: มีระบบ Error Handling ที่ครอบคลุม พร้อม `TryDecrypt` Pattern เพื่อลดโอกาสการเกิด Runtime Exception ในระบบจริง
 
-## 🚀 How to Use
+<!-- ## 🚀 How to Use -->
 
 ### 1. Basic Encryption
 ```csharp
